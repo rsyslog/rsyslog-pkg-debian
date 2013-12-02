@@ -1,0 +1,116 @@
+liblognorm (1.0.0-4) wheezy; urgency=low
+
+  * fixed missing dev files
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 29 Nov 2013 16:24:35 +0100
+
+liblognorm (1.0.0-3) wheezy; urgency=low
+
+  * Fixed package conflict with liblognorm0 
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 29 Nov 2013 09:40:47 +0100
+
+liblognorm (1.0.0-2) wheezy; urgency=low
+
+  * Final Final release for liblognorm 1.0.0
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Thu, 28 Nov 2013 15:10:07 +0100
+
+liblognorm (1.0.0-1) wheezy; urgency=low
+
+  * Final release for liblognorm 1.0.0
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Thu, 28 Nov 2013 14:51:49 +0100
+
+liblognorm (0.3.7-2) wheezy; urgency=low
+
+  * Unofficial package for debian squeeze.
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 04 Oct 2013 17:13:21 +0200
+
+liblognorm (0.3.7-1) unstable; urgency=low
+
+  * Imported Upstream version 0.3.7
+  * Update symbols file
+  * Bump Standards Version to 3.9.4
+
+ -- Pierre Chifflier <pollux@debian.org>  Tue, 20 Aug 2013 17:21:03 +0200
+
+liblognorm (0.3.6-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- Pierre Chifflier <pollux@debian.org>  Thu, 09 May 2013 21:45:39 +0200
+
+liblognorm (0.3.6-1) experimental; urgency=low
+
+  * Upload to experimental
+  * Imported Upstream version 0.3.6
+
+ -- Pierre Chifflier <pollux@debian.org>  Fri, 22 Mar 2013 11:34:36 +0100
+
+liblognorm (0.3.5-1) unstable; urgency=low
+
+  * Imported Upstream version 0.3.5
+
+ -- Pierre Chifflier <pollux@debian.org>  Sat, 10 Nov 2012 16:39:29 +0100
+
+liblognorm (0.3.4-1) unstable; urgency=low
+
+  * Imported Upstream version 0.3.4
+
+ -- Pierre Chifflier <pollux@debian.org>  Mon, 16 Apr 2012 22:26:37 +0200
+
+liblognorm (0.3.3-1) unstable; urgency=low
+
+  * Imported Upstream version 0.3.3
+  * Bump DH version to 9
+    - drop build-dep on hardening-wrapper, replace by dpkg-buildflags
+    - enable multiarch support
+  * Bump Standards Version to 3.9.3
+
+ -- Pierre Chifflier <pollux@debian.org>  Sat, 25 Feb 2012 15:11:24 +0100
+
+liblognorm (0.3.2-1) unstable; urgency=low
+
+  * Imported Upstream version 0.3.2
+  * Convert to DH version 8
+  * Update symbols file
+
+ -- Pierre Chifflier <pollux@debian.org>  Mon, 05 Dec 2011 21:24:01 +0100
+
+liblognorm (0.3.0-2) unstable; urgency=low
+
+  * Acknowledge NMU, thanks Luk (Closes: #631466)
+  * Enable hardening wrapper
+  * Bump Standards Version to 3.9.2
+
+ -- Pierre Chifflier <pollux@debian.org>  Tue, 12 Jul 2011 08:31:32 +0200
+
+liblognorm (0.3.0-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Version build dependency on libee-dev (Closes: #621714).
+  * Don't ship .la files (Closes: #621685).
+
+ -- Luk Claes <luk@debian.org>  Fri, 24 Jun 2011 08:10:00 +0200
+
+liblognorm (0.3.0-1) unstable; urgency=low
+
+  * Imported Upstream version 0.3.0
+  * Add watch file
+  * Add symbols file
+
+ -- Pierre Chifflier <pollux@debian.org>  Thu, 07 Apr 2011 10:29:22 +0200
+
+liblognorm (0.1.0-2) unstable; urgency=low
+
+  * Add pkg-config and libxml2-dev to build-deps
+
+ -- Pierre Chifflier <pollux@debian.org>  Sun, 13 Feb 2011 22:00:41 +0100
+
+liblognorm (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #606750)
+
+ -- Pierre Chifflier <pollux@debian.org>  Sat, 11 Dec 2010 11:53:53 +0100
