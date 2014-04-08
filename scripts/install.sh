@@ -1,8 +1,8 @@
-!#/bin/sh
+#!/bin/sh
+# Definitions common to these scripts
+source $(dirname "$0")/config.sh
+
 TARGZFILES=`ls *.dsc`
-PLATFORM="squeeze wheezy"
-ARCHTECT="amd64 i386"
-BRANCHES="v7-stable v7-devel"
 
 echo "-------------------------------------"
 echo "--- RPMMaker                      ---"
@@ -50,6 +50,6 @@ do
         #pbuilder-dist precise create
         APPENDSUFFIX="_$szArchitect.changes"
 	# only install        pbuilder-dist $szPlatform $szArchitect build $szDscFile
-        dput $szBranch /root/pbuilder/$szPlatform$szAddArch\_result/$szDscFileBase$APPENDSUFFIX
+        dput $szBranch ../pbuilder/$szPlatform$szAddArch\_result/$szDscFileBase$APPENDSUFFIX
 done;
 

@@ -42,9 +42,9 @@ override_dh_auto_configure:
 		--enable-mmfields \
 		--enable-mmpstrucdata \
 		--enable-mmsequence \
-		--disable-libgcrypt \
 		--disable-testbench \
 		--with-systemdsystemunitdir=/lib/systemd/system
+#		--disable-libgcrypt \
 
 override_dh_auto_install:
 	dh_auto_install

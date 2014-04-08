@@ -27,4 +27,7 @@ usr/lib/rsyslog/omprog.so
 usr/lib/rsyslog/omuxsock.so
 usr/lib/rsyslog/omruleset.so
 usr/lib/rsyslog/pm*.so
+usr/lib/rsyslog/lmnsd_gtls.so
+usr/lib/rsyslog/lmcry_gcry.so
+usr/lib/rsyslog/lmsig_gt.so
 lib/systemd/system/rsyslog.service

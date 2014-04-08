@@ -39,7 +39,8 @@ Provides: system-log-daemon,
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          lsb-base (>= 3.2-14),
-         initscripts (>= 2.88dsf-13.3)
+         initscripts (>= 2.88dsf-13.3),
+	 libgt0
 Recommends: logrotate
 Suggests: rsyslog-mysql | rsyslog-pgsql,
           rsyslog-mongodb,

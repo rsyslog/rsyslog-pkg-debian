@@ -1,14 +1,14 @@
-!#/bin/sh
+#!/bin/bash
 TARGZFILES=`ls *.dsc`
 PLATFORM="squeeze wheezy"
 ARCHTECT="amd64 i386"
-BRANCHES="v7-stable v7-devel v8-devel"
+BRANCHES="v8-stable v8-devel"
 
 echo "------------------------------------------"
 echo "--- Re Upload existing debs to archive ---"
 echo "------------------------------------------"
 
-echo "Select Ubuntu DIST:"
+echo "Select Debian DIST:"
 select szPlatform in $PLATFORM
 do
         break;

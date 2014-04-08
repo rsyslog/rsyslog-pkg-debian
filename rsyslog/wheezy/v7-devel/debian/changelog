@@ -1,3 +1,21 @@
+rsyslog (7.5.8-3) wheezy; urgency=low
+
+  * Fixed
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Mon, 13 Jan 2014 12:31:56 +0100
+
+rsyslog (7.5.8-2) wheezy; urgency=low
+
+  * Repackaged
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 10 Jan 2014 17:29:31 +0100
+
+rsyslog (7.5.8-1) wheezy; urgency=low
+
+  * Updated packages with RSyslog v7.5.8
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Thu, 09 Jan 2014 13:35:51 +0100
+
 rsyslog (7.5.7-1) wheezy; urgency=low
 
   * Updated packages with RSyslog v7.5.7
