@@ -1,3 +1,9 @@
+rsyslog (8.3.0-1) wheezy; urgency=low
+
+  * New debs for RSyslog v8-devel 8.3.0
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Thu, 10 Apr 2014 16:10:52 +0200
+
 rsyslog (8.1.6-3) wheezy; urgency=low
 
   * fixed missing libs
