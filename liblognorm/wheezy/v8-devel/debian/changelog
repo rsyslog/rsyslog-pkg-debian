@@ -1,3 +1,9 @@
+liblognorm (1.0.1-1) wheezy; urgency=low
+
+  * new debs for liblognorm 1.0.1
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 11 Apr 2014 16:14:11 +0200
+
 liblognorm (1.0.0-6) wheezy; urgency=low
 
   * new build

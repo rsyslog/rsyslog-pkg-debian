@@ -2,4 +2,4 @@
 #doc/*.jpg  usr/share/doc/rsyslog-doc/html/
 #doc/*.png  usr/share/doc/rsyslog-doc/html/
 #doc/*.conf usr/share/doc/rsyslog-doc/html/
-rsyslog-doc.tar.gz
+#rsyslog-doc.tar.gz
