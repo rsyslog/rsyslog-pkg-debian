@@ -1,3 +1,15 @@
+rsyslog (8.3.4-1) wheezy; urgency=low
+
+  * New debs for RSyslog v8-devel 8.3.4
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Mon, 14 Jul 2014 16:44:26 +0200
+
+rsyslog (8.3.2-1) wheezy; urgency=low
+
+  * New debs for RSyslog v8-devel 8.3.2
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 02 May 2014 15:04:31 +0200
+
 rsyslog (8.3.1-2) wheezy; urgency=low
 
   * Added missing plugin mmexternal
