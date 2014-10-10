@@ -1,3 +1,15 @@
+rsyslog (8.4.2-1) wheezy; urgency=low
+
+  * Created debs for 8.4.2
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Thu, 02 Oct 2014 08:29:59 +0200
+
+rsyslog (8.4.1-2) wheezy; urgency=low
+
+  * added mmexternal module
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Thu, 02 Oct 2014 07:15:42 +0200
+
 rsyslog (8.4.1-1) wheezy; urgency=low
 
   * Created debs for 8.4.1
