@@ -1,15 +1,3 @@
-init-system-helpers (1.13-3) wheezy; urgency=low
-
-  * rebuild again
-
- -- Andre Lorbach <alorbach@adiscon.com>  Fri, 10 Oct 2014 11:29:56 +0200
-
-init-system-helpers (1.13-2) wheezy; urgency=low
-
-  * rebuild
-
- -- Andre Lorbach <alorbach@adiscon.com>  Fri, 10 Oct 2014 11:09:59 +0200
-
 init-system-helpers (1.13-1) wheezy; urgency=low
 
   * Rebuild

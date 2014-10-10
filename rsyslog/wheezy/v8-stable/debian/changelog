@@ -1,3 +1,9 @@
+rsyslog (8.4.2-2) wheezy; urgency=low
+
+  * rebuild
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 10 Oct 2014 11:52:05 +0200
+
 rsyslog (8.4.2-1) wheezy; urgency=low
 
   * Created debs for 8.4.2

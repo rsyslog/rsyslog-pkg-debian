@@ -1,0 +1,2 @@
+script/deb-systemd-helper usr/bin
+script/deb-systemd-invoke usr/bin

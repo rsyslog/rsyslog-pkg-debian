@@ -1,0 +1,37 @@
+Source: init-system-helpers
+Section: admin
+Priority: extra
+Maintainer: pkg-systemd-maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Stapelberg <stapelberg@debian.org>,
+ Tollef Fog Heen <tfheen@debian.org>,
+ Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper (>= 8.0.0), perl
+Standards-Version: 3.9.4
+Vcs-Git: git://anonscm.debian.org/collab-maint/init-system-helpers.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/init-system-helpers.git;a=summary
+
+Package: init-system-helpers
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}
+Breaks: systemd (<< 44-12)
+Description: helper tools for all init systems
+ This package contains helper tools that are necessary for switching between
+ the various init systems that Debian contains (e.g. sysvinit, upstart,
+ systemd). An example is deb-systemd-helper, a script that enables systemd unit
+ files without depending on a running systemd.
+ .
+ While this package is maintained by pkg-systemd-maintainers, it is NOT
+ specific to systemd at all. Maintainers of other init systems are welcome to
+ include their helpers in this package.
+
+Package: dh-systemd
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, debhelper
+Description: debhelper add-on to handle systemd unit files
+ dh-systemd provides a debhelper sequence addon named 'systemd' and the
+ dh_systemd_enable/dh_systemd_start commands.
+ .
+ The dh_systemd_enable command adds the appropriate code to the postinst, prerm
+ and postrm maint scripts to properly enable/disable systemd service files.
+ The dh_systemd_start command deals with start/stop/restart on upgrades for
+ systemd-only service files.
