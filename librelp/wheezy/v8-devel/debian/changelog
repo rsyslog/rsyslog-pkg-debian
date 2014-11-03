@@ -1,0 +1,112 @@
+librelp (1.2.7-1) wheezy; urgency=low
+
+  * New build for librelp 1.2.7
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 02 May 2014 14:53:41 +0200
+
+librelp (1.2.0-2) wheezy; urgency=low
+
+  * Unofficial package for debian squeeze.
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 04 Oct 2013 17:17:06 +0200
+
+librelp (1.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update symbols file, add new symbols.
+
+ -- Michael Biebl <biebl@debian.org>  Fri, 26 Jul 2013 07:41:30 +0200
+
+librelp (1.1.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update symbols file, add new symbols.
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 04 Jul 2013 16:04:24 +0200
+
+librelp (1.1.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update symbols file, add new symbols.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 02 Jul 2013 10:50:54 +0200
+
+librelp (1.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 12 Jun 2013 00:06:25 +0200
+
+librelp (1.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Enable TLS support using GnuTLS. Add Build-Depends on libgnutls-dev and
+    pkg-confg.
+  * Update symbols file.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 03 Jun 2013 15:35:16 +0200
+
+librelp (1.0.7-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update symbols file.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 14 May 2013 23:14:28 +0200
+
+librelp (1.0.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 06 May 2013 02:58:15 +0200
+
+librelp (1.0.3-2) unstable; urgency=low
+
+  * Upload to unstable.
+  * Bump Standards-Version to 3.9.4. No further changes.
+
+ -- Michael Biebl <biebl@debian.org>  Sun, 05 May 2013 04:02:45 +0200
+
+librelp (1.0.3-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update symbols files.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 10 Apr 2013 12:21:37 +0200
+
+librelp (1.0.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update symbols file.
+  * List missing files on dh_install.
+
+ -- Michael Biebl <biebl@debian.org>  Fri, 15 Mar 2013 20:40:03 +0100
+
+librelp (1.0.1-1) experimental; urgency=low
+
+  * New upstream release.
+  * Switch to source format 3.0 (quilt)
+    - Add debian/source/format.
+  * Move from cdbs to dh
+    - Drop Build-Depends on cdbs.
+    - Convert debian/rules to use dh.
+  * Bump Standards-Version to 3.9.3.
+  * Bump debhelper compat level to 9.
+  * Convert to multiarch.
+  * Update symbols file.
+  * Don't use brace expansion in .install files.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 24 Sep 2012 06:09:06 +0200
+
+librelp (1.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control
+    - Bump Standards-Version to 3.8.3. No further changes.
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 10 Dec 2009 17:03:02 +0100
+
+librelp (0.1.3-1) unstable; urgency=low
+
+  * New upstream release. Closes: #497613
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 10 Feb 2009 20:43:37 +0100
