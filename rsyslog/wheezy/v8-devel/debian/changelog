@@ -1,3 +1,9 @@
+rsyslog (8.5.0-1) wheezy; urgency=low
+
+  * New debs for RSyslog v8-devel 8.5.0
+
+ -- Florian Riedl <friedl@adiscon.com>  Thu, 23 Oct 2014 12:24:35 +0200
+
 rsyslog (8.3.4-2) wheezy; urgency=low
 
   * rebuild
