@@ -39,6 +39,7 @@ override_dh_auto_configure:
                 --enable-elasticsearch \
                 --enable-imptcp \
 		--enable-guardtime \
+		--enable-userotools \
 		--enable-mmfields \
 		--enable-mmpstrucdata \
 		--enable-mmsequence \
