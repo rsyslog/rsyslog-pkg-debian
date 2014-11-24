@@ -1,3 +1,9 @@
+rsyslog (8.4.2.ad1-3) wheezy; urgency=low
+
+  * rebuild
+
+ -- Florian Riedl <friedl@adiscon.com>  Mon, 24 Nov 2014 16:43:31 +0100
+
 rsyslog (8.4.2.ad1-2) wheezy; urgency=low
 
   * rebuild
