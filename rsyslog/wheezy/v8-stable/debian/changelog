@@ -1,3 +1,9 @@
+rsyslog (8.4.2.ad1-2) wheezy; urgency=low
+
+  * rebuild
+
+ -- Florian Riedl <friedl@adiscon.com>  Mon, 24 Nov 2014 15:43:45 +0100
+
 rsyslog (8.4.2.ad1-1) wheezy; urgency=low
 
   * Adiscon package for 8.4.2 with additional patches
