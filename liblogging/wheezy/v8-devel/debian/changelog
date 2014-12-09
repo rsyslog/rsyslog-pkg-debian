@@ -1,0 +1,18 @@
+liblogging (1.0.4-0adiscon1) wheezy; urgency=low
+
+  * build for liblogging 1.0.4
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Tue, 08 Apr 2014 10:24:44 +0200
+
+liblogging (1.0.1-0adiscon3) wheezy; urgency=low
+
+  * firts build for debian
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Fri, 21 Feb 2014 16:00:15 +0100
+
+liblogging (1.0.1-0adiscon2) wheezy; urgency=low
+
+  * new debs
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Tue, 04 Feb 2014 12:26:02 +0100
+
