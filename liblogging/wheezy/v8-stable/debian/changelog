@@ -1,3 +1,9 @@
+liblogging (1.0.5-0adiscon1) wheezy; urgency=low
+
+  * build for liblogging 1.0.5
+
+ -- Florian Riedl <friedl@adiscon.com>  Tue, 09 Dec 2014 15:49:36 +0100
+
 liblogging (1.0.4-0adiscon1) wheezy; urgency=low
 
   * build for liblogging 1.0.4
