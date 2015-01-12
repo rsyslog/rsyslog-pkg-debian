@@ -1,3 +1,9 @@
+liblognorm (1.1.0-1) wheezy; urgency=low
+
+  * Final release of liblognorm 1.1.0
+
+ -- Florian Riedl <friedl@adiscon.com>  Mon, 12 Jan 2015 13:11:27 +0100
+
 liblognorm (1.0.0-6) wheezy; urgency=low
 
   * new build
