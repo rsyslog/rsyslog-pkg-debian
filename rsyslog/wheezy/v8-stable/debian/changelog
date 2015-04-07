@@ -1,3 +1,9 @@
+rsyslog (8.9.0-1) wheezy; urgency=low
+
+  * Created debs of 8.9.0
+
+ -- Florian Riedl <friedl@adiscon.com>  Tue, 07 Apr 2015 15:54:18 +0200
+
 rsyslog (8.8.0.ad1-2) wheezy; urgency=low
 
   * Updated debs for 8.8.0.ad1 to use liblognorm 1.1.1
