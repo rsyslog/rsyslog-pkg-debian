@@ -1,3 +1,15 @@
+liblognorm (1.1.2-1) wheezy; urgency=low
+
+  * Release package for liblognorm 1.1.2
+
+ -- Florian Riedl <friedl@adiscon.com>  Mon, 20 Jul 2015 16:08:37 +0200
+
+liblognorm (1.1.1-1) wheezy; urgency=low
+
+  * Release package for liblognorm 1.1.1
+
+ -- Florian Riedl <friedl@adiscon.com>  Mon, 09 Mar 2015 17:27:31 +0100
+
 liblognorm (1.1.0-1) wheezy; urgency=low
 
   * Final release of liblognorm 1.1.0
