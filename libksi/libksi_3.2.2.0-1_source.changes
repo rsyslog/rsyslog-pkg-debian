@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Wed, 03 Dec 2015 05:28:46 -0400
+Source: libksi
+Binary: libksi-dev libksi0
+Architecture: source
+Version: 3.2.2.0-1
+Distribution: wheezy
+Urgency: medium
+Maintainer: Florian Riedl <friedl@adiscon.com>
+Changed-By: Florian Riedl <friedl@adiscon.com>
+Description: 
+ libksi-dev - Development files for the 'libksi0' package
+ libksi0    - LibKSI - GuardTime client library
+Changes: 
+ libksi (3.2.2.0-1) wheezy; urgency=medium
+ .
+   * Initial release of libksi for Debian Wheezy
+Checksums-Sha1: 
+ 225df37f4da8d69bdc18853e3866e0aeb4adf0be 1525 libksi_3.2.2.0-1.dsc
+ ffcc891b16a223ac2e38cf2ab3f0db218d4b61fc 543989 libksi_3.2.2.0.orig.tar.gz
+ 332d8bab9b699363a6abc17049a1f71ac48e3470 2430 libksi_3.2.2.0-1.diff.gz
+Checksums-Sha256: 
+ 28e1d4760b589b3252f827a9c5007e041e662cfa563a4da4933063811083eb37 1525 libksi_3.2.2.0-1.dsc
+ cf63e83e556227f33198e4d9779d6d81f97e1e1034f8231399ebad1dfb89a66d 543989 libksi_3.2.2.0.orig.tar.gz
+ caab6e84cfa9880677d8f2e55b4f22085ec26bbfee9ef6db6488cc6d95fdc0d3 2430 libksi_3.2.2.0-1.diff.gz
+Files: 
+ 75c15b992576ca90eb6239c1ebbce7b6 1525 libs extra libksi_3.2.2.0-1.dsc
+ d753bec46cd3d5c97dd0490d2d3d07df 543989 libs extra libksi_3.2.2.0.orig.tar.gz
+ 1b9bc7b4ab688321b895080c36694ecd 2430 libs extra libksi_3.2.2.0-1.diff.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJWYCmSAAoJEIlOzxeu8M+O5zMH/R3VpvhmWt00qSrz3lfLBY6W
+Br24dXxj05VipRwW9HRK6V6DG2JVdXWrMk0sGNEPMXdmd1zCSFlSAvo8xUWLF6Np
+on7zJXh4tlMsG4Y+Gxn1ULft6YTvpi00rBo/Zjc3TxBC1WWN2Wd/YEryq1US/Ald
++w/xCXCTnMGgZ6dlcgnYoJZTmynkTlkio14NY/H8sr/ohND+kmKG7BMlVq5XsuWg
+5BvQ2M8d7zyeuEOV811nQedqCJBDwtJYh4T664wrvoFsR0L7ZxlMwcbCCeQcypfv
+WlhxmlgZxihud3urrJI9ffUiPIYy7VAxQBcQF6RjYbGDZTxzXU1J+R5Nd/SQcXI=
+=1ISI
+-----END PGP SIGNATURE-----

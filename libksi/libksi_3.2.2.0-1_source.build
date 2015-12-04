@@ -1,0 +1,69 @@
+ dpkg-buildpackage -rfakeroot -d -us -uc -S
+dpkg-buildpackage: source package libksi
+dpkg-buildpackage: source version 3.2.2.0-1
+dpkg-buildpackage: source changed by Florian Riedl <friedl@adiscon.com>
+ dpkg-source --before-build libksi-3.2.2.0
+ fakeroot debian/rules clean
+test -x debian/rules
+dh_testroot
+rm -f debian/stamp-makefile-build debian/stamp-makefile-install
+/usr/bin/make  -C .  -k distclean
+make[1]: Entering directory `/home/test/rsyslog-pkg-debian/libksi/libksi-3.2.2.0'
+makefile:21: *** missing separator.  Stop.
+make[1]: Leaving directory `/home/test/rsyslog-pkg-debian/libksi/libksi-3.2.2.0'
+make: [makefile-clean] Error 2 (ignored)
+rm -f debian/stamp-autotools
+rmdir --ignore-fail-on-non-empty .
+rmdir: failed to remove `.': Invalid argument
+make: [makefile-clean] Error 1 (ignored)
+for i in ./config/config.guess ./config/config.sub  ; do \
+		if test -e $i.cdbs-orig ; then \
+			mv $i.cdbs-orig $i ; \
+		fi ; \
+	done
+dh_clean 
+	rm -f debian/libksi-dev.substvars
+	rm -f debian/libksi-dev.*.debhelper
+	rm -rf debian/libksi-dev/
+	rm -f debian/libksi0.substvars
+	rm -f debian/libksi0.*.debhelper
+	rm -rf debian/libksi0/
+	rm -f debian/*.debhelper.log
+	rm -f debian/files
+	find .  \( \( -type f -a \
+	        \( -name '#*#' -o -name '.*~' -o -name '*~' -o -name DEADJOE \
+		 -o -name '*.orig' -o -name '*.rej' -o -name '*.bak' \
+		 -o -name '.*.orig' -o -name .*.rej -o -name '.SUMS' \
+		 -o -name TAGS -o \( -path '*/.deps/*' -a -name '*.P' \) \
+		\) -exec rm -f {} \; \) -o \
+		\( -type d -a -name autom4te.cache -prune -exec rm -rf {} \; \) \)
+	rm -f *-stamp
+rm -f debian/stamp-autotools-files
+ dpkg-source -b libksi-3.2.2.0
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building libksi using existing libksi_3.2.2.0.orig.tar.gz
+dpkg-source: info: building libksi in libksi_3.2.2.0-1.diff.gz
+dpkg-source: info: building libksi in libksi_3.2.2.0-1.dsc
+ dpkg-genchanges -S >../libksi_3.2.2.0-1_source.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build libksi-3.2.2.0
+dpkg-buildpackage: source only upload (original source is included)
+Now running lintian...
+W: libksi source: brace-expansion-in-debhelper-config-file debian/librelp-dev.install
+W: libksi source: out-of-date-standards-version 3.9.2 (current is 3.9.4)
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile libksi_3.2.2.0-1.dsc AEF0CF8E
+gpg: WARNING: unsafe permissions on configuration file `/home/test/.gnupg/gpg.conf'
+gpg: WARNING: unsafe enclosing directory permissions on configuration file `/home/test/.gnupg/gpg.conf'
+gpg: WARNING: unsafe permissions on configuration file `/home/test/.gnupg/gpg.conf'
+gpg: WARNING: unsafe enclosing directory permissions on configuration file `/home/test/.gnupg/gpg.conf'
+
+ signfile libksi_3.2.2.0-1_source.changes AEF0CF8E
+gpg: WARNING: unsafe permissions on configuration file `/home/test/.gnupg/gpg.conf'
+gpg: WARNING: unsafe enclosing directory permissions on configuration file `/home/test/.gnupg/gpg.conf'
+gpg: WARNING: unsafe permissions on configuration file `/home/test/.gnupg/gpg.conf'
+gpg: WARNING: unsafe enclosing directory permissions on configuration file `/home/test/.gnupg/gpg.conf'
+
+Successfully signed dsc and changes files

@@ -1,0 +1,5 @@
+libksi (3.2.2.0-1) wheezy; urgency=medium
+
+  * Initial release of libksi for Debian Wheezy
+
+ -- Florian Riedl <friedl@adiscon.com>  Wed, 03 Dec 2015 05:28:46 -0400
