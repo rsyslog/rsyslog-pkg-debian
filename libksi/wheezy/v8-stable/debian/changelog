@@ -1,0 +1,11 @@
+libksi (3.4.0.5-1) wheezy; urgency=low
+
+  * Update to libksi 3.4.0.5
+
+ -- Andre Lorbach <alorbach@adiscon.com>  Tue, 08 Dec 2015 13:35:33 +0100
+
+libksi (3.2.2.0-1) wheezy; urgency=medium
+
+  * Initial release of libksi for Debian Wheezy
+
+ -- Florian Riedl <friedl@adiscon.com>  Wed, 03 Dec 2015 05:28:46 -0400
