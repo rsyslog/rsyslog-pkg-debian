@@ -24,6 +24,7 @@ Build-Depends:	debhelper (>= 8),
 		libcurl4-gnutls-dev,
 		bison,
 		libgt-dev,
+		libksi1-dev,
 		python-docutils, 
 	        liblogging-stdlog-dev
 #	        libjemalloc-dev
