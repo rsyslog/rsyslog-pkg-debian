@@ -1,0 +1,5 @@
+libfastjson (0.99.1-1) wheezy; urgency=low
+
+  * Initial package for libfastjson on Debian wheezy
+
+ -- Florian Riedl <friedl@adiscon.com>  Fri, 15 Jan 2016 10:24:56 +0100
