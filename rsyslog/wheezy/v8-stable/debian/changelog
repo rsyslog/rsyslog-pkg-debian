@@ -1,3 +1,9 @@
+rsyslog (8.20.0-1) wheezy; urgency=low
+
+  * Created debs for 8.20.0
+
+ -- Florian Riedl <friedl@adiscon.com>  Wed, 20 Jul 2016 12:12:09 +0200
+
 rsyslog (8.19.0-1) wheezy; urgency=low
 
   * Created debs for 8.19.0
