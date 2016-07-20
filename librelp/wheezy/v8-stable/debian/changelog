@@ -1,3 +1,9 @@
+librelp (1.2.12-2) wheezy; urgency=low
+
+  * Packages for debian wheezy
+
+ -- Florian Riedl <friedl@adiscon.com>  Wed, 20 Jul 2016 12:04:50 +0200
+
 librelp (1.2.11-2) wheezy; urgency=low
 
   * Re-pack for 1.2.11
