@@ -45,6 +45,7 @@ override_dh_auto_configure:
 		--enable-mmpstrucdata \
 		--enable-mmsequence \
 		--enable-usertools \
+		--enable-gt-ksi \
 		--disable-testbench \
 		--with-systemdsystemunitdir=/lib/systemd/system
 #               --enable-jemalloc \

@@ -1,3 +1,9 @@
+rsyslog (8.21.0-1) wheezy; urgency=low
+
+  * Created dens for 8.21.0
+
+ -- Florian Riedl <friedl@adiscon.com>  Tue, 23 Aug 2016 17:00:26 +0200
+
 rsyslog (8.20.0-2) wheezy; urgency=low
 
   * Updated package, fixed libfastjson dependency
