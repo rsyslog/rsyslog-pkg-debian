@@ -1,3 +1,9 @@
+libksi (3.4.0.7-1) wheezy; urgency=low
+
+  * Update to libksi 3.4.0.7
+
+ -- Florian Riedl <friedl@adiscon.com>  Tue, 15 Nov 2016 16:20:02 +0100
+
 libksi (3.4.0.5-1) wheezy; urgency=low
 
   * Update to libksi 3.4.0.5
