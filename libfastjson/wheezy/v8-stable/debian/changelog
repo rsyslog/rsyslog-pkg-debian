@@ -1,3 +1,9 @@
+libfastjson (0.99.5-1) wheezy; urgency=low
+
+  * Packages for libfastjson 0.99.5
+
+ -- Florian Riedl <friedl@adiscon.com>  Wed, 03 May 2017 16:47:42 +0200
+
 libfastjson (0.99.2-2) wheezy; urgency=low
 
   * Re-pack for 0.99.2
