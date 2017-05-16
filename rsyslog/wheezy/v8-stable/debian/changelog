@@ -1,3 +1,9 @@
+rsyslog (8.27.0-1) wheezy; urgency=low
+
+  * Created debs for 8.27.0
+
+ -- Florian Riedl <friedl@adiscon.com>  Tue, 16 May 2017 12:10:42 +0200
+
 rsyslog (8.26.0-2) wheezy; urgency=low
 
   * Repackage of 8.26.0
