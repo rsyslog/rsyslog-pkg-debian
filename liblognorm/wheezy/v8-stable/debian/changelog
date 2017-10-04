@@ -1,3 +1,9 @@
+liblognorm (2.0.4-1) wheezy; urgency=low
+
+  * Release package for liblognorm 2.0.4
+
+ -- Florian Riedl <friedl@adiscon.com>  Wed, 04 Oct 2017 15:27:38 +0200
+
 liblognorm (2.0.3-1) wheezy; urgency=low
 
   * Release package for liblognorm 2.0.3
