@@ -39,16 +39,22 @@ override_dh_auto_configure:
 		--enable-mmjsonparse \
                 --enable-elasticsearch \
                 --enable-imptcp \
-		--enable-guardtime \
 		--enable-usertools \
 		--enable-mmfields \
 		--enable-mmpstrucdata \
 		--enable-mmsequence \
 		--enable-usertools \
 		--enable-gt-ksi \
+		--enable-imkafka \
+		--enable-omkafka \
+		--enable-kafka-static \
 		--disable-testbench \
 		--disable-liblogging-stdlog \
 		--with-systemdsystemunitdir=/lib/systemd/system
+#		--enable-imkafka \
+#		--enable-omkafka \
+#		--enable-kafka-static \
+#		--enable-guardtime \
 #               --enable-jemalloc \
 #		--disable-libgcrypt \
 
